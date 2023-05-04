@@ -233,7 +233,7 @@ packages:
   flutter_reactive_ble:
     dependency: "direct main"
     description:
-      path: "../packages/flutter_reactive_ble"
+      path: "/Users/picofaradpjf/Documents/GitHub/flutter_reactive_ble/example/../packages/flutter_reactive_ble"
       relative: false
     source: path
     version: "5.0.3"
@@ -461,17 +461,16 @@ packages:
   reactive_ble_mobile:
     dependency: "direct overridden"
     description:
-      path: "../packages/reactive_ble_mobile"
+      path: "/Users/picofaradpjf/Documents/GitHub/flutter_reactive_ble/example/../packages/reactive_ble_mobile"
       relative: false
     source: path
     version: "5.0.3"
   reactive_ble_platform_interface:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: reactive_ble_platform_interface
-      sha256: f9a446150076f1601c397b6bbf554eda2c37b066bb7397a226e72f04c13dbd9b
-      url: "https://pub.dev"
-    source: hosted
+      path: "../packages/reactive_ble_platform_interface"
+      relative: true
+    source: path
     version: "5.0.3"
   shelf:
     dependency: transitive
@@ -608,4 +607,4 @@ packages:
     version: "3.1.0"
 sdks:
   dart: ">=2.18.0 <3.0.0"
-  flutter: ">=2.0.0"
+  flutter: ">=1.16.0"

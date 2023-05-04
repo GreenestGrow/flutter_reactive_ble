@@ -382,10 +382,9 @@ packages:
   reactive_ble_platform_interface:
     dependency: "direct main"
     description:
-      name: reactive_ble_platform_interface
-      sha256: f9a446150076f1601c397b6bbf554eda2c37b066bb7397a226e72f04c13dbd9b
-      url: "https://pub.dev"
-    source: hosted
+      path: "../reactive_ble_platform_interface"
+      relative: true
+    source: path
     version: "5.0.3"
   shelf:
     dependency: transitive
